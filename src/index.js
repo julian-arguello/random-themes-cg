@@ -14,7 +14,7 @@ const top10 = [
   
   export function getTheme() {
     const theme = top10[Math.floor(Math.random() * top10.length)];
-    console.log(`\x1b[34m${theme}\x1b[89m`);
+    console.log(`\x1b[36m${theme}\x1b[89m`);
     const url = theme.match(/https:\/\/open\.spotify\.com\/track\/\w+/);
     if (url) {
       open(url[0]);
