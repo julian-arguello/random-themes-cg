@@ -1,0 +1,24 @@
+{
+  "name": "random-themes-cg",
+  "version": "1.0.0",
+  "description": "Top 10 songs by Charly García",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julian-arguello/random-themes-cg"
+  },
+  "keywords": [],
+  "author": "Julián Argüello <julian.andres.arguello@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "random-themes-cg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "open": "^9.1.0"
+  }
+}
